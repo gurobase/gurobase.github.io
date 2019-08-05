@@ -2,6 +2,19 @@
 body {
 	background-color:black;
 }
+
+.bodyJavser {
+body {
+    /* display: block; */
+    background: rgb(17, 19, 22);
+    background: -moz-radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
+    background: radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#111316", endColorstr="#070707", GradientType=1);
+}
+
+}
+
 .fadeMe {
 	animation:fadeIn 2s linear;
 }
