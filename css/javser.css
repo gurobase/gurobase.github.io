@@ -8,9 +8,6 @@ body {
 }
 
 .container {
-    /* border-style: solid;
-    border-color: greenyellow;
-    border-width: 1px; */
     height: fit-content;
     margin-left: 25%;
     margin-right: 5%;
@@ -19,24 +16,15 @@ body {
 }
 
 .left {
-    /* border-style: solid;
-    border-color: yellow;
-    border-width: 1px; */
     display: inline-block;
 }
 
 .right {
-    /* border-style: solid;
-    border-color: cyan;
-    border-width: 1px; */
     display: inline-block;
     vertical-align: top;
 }
 
 .javserPhone {
-    /* border-style: solid;
-    border-color: red;
-    border-width: 1px; */
     display: inline-block;
     margin: 0px;
     padding: 5px;
@@ -44,9 +32,6 @@ body {
 }
 
 .javserLogo {
-    /* border-style: solid;
-    border-color: blue;
-    border-width: 1px; */
     height: 180px;
     width: 180px;
     margin: auto;
@@ -54,9 +39,6 @@ body {
 }
 
 .description {
-    /* border-style: solid;
-    border-color: green;
-    border-width: 1px; */
     font-family: 'Next Art Bold';
     color: #ffffff;
     font-size: 40px;
@@ -68,9 +50,6 @@ body {
 }
 
 .downloadButtonDiv {
-    /* border-style: solid;
-    border-color: green;
-    border-width: 1px; */
     width: 250px;
     height: 77px;
     margin-left: auto;
@@ -89,7 +68,7 @@ body {
     height: 77px;
     vertical-align: top;
     font-family: 'Next Art Bold';
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     line-height: 77px;
     color: white;
@@ -106,27 +85,41 @@ body {
     background-color: #191d20;
 }
 
-@-webkit-keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.downloadAgainButton {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 250px;
+    height: 77px;
+    vertical-align: top;
+    font-family: 'Next Art Bold';
+    font-size: 15px;
+    text-align: center;
+    line-height: 77px;
+    color: white;
+    text-decoration: none;
+    outline: none !important;
+    -webkit-transition-duration: 0.2s;
+    /* Safari */
+    transition-duration: 0.2s;
+    margin: 0 auto;
 }
 
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.downloadAgainButton:hover {
+    cursor: pointer;
+    background-color: #191d20;
 }
 
-.fade-in {
-    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.noDisplay {
+    display: none;
+}
+
+.retryImage {
+    height: 64px;
+    width: 64px;
+    transform: scale(0.7);
+    margin-top: 6px;
 }
 
 @font-face {
@@ -136,33 +129,121 @@ body {
     font-style: normal;
 }
 
-@-webkit-keyframes fade-in-top {
+
+
+ @-webkit-keyframes tracking-in-expand {
     0% {
-        -webkit-transform: translateY(-50px);
-        transform: translateY(-50px);
-        opacity: 0;
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
     }
     100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-@keyframes fade-in-top {
+  }
+  @keyframes tracking-in-expand {
     0% {
-        -webkit-transform: translateY(-50px);
-        transform: translateY(-50px);
-        opacity: 0;
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
     }
     100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        opacity: 1;
+      opacity: 1;
     }
+  }
+  .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-.fade-in-top {
-    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+ @-webkit-keyframes tracking-out-contract {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+  }
+  @keyframes tracking-out-contract {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+  }
+  
+.tracking-out-contract {
+	-webkit-animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+
+
+
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  .fade-in {
+	-webkit-animation: fade-in 0.3s linear both;
+	        animation: fade-in 0.3s linear both;
+}
+
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
 }

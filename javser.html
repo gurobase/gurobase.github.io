@@ -6,13 +6,14 @@
     <title>JAVser</title>
 	<link rel="stylesheet" type="text/css" href="css/javser.css">
     <link rel="shortcut icon" href="favicon.ico" />
+    <script src="js/downloadclick.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="left">
             <div class="javserPhone">
-                <img class="fade-in" src="img/javser_phone.png" alt="JAVser" />
+                <img src="img/javser_phone.png" alt="JAVser" />
             </div>
         </div>
 
@@ -25,8 +26,12 @@
                 <br>WITHOUT ADS
             </div>
             <div class="downloadButtonDiv">
-                <button onclick="location.href= 'https://github.com/gurobase/javser/raw/master/release/app-release.apk';" class="downloadButton fade-in-top">
-                    DOWNLOAD
+                <button class="downloadButton" onclick="downloadClick()">
+                    <img id="retryImg" class="noDisplay retryImage"  src="img/retry.png"/>
+                    <div id="downloadId" class="tracking-in-expand">
+                        DOWNLOAD
+                    </div>
+                    
                 </button>
             </div>
 
@@ -35,5 +40,4 @@
     </div>
 
 </body>
-
 </html>
