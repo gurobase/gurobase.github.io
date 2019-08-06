@@ -4,39 +4,32 @@
       <meta charset="UTF-8">
       <title>JAVser</title>
       <link rel="stylesheet" type="text/css" href="css/javser.css">
+      <link rel="stylesheet" type="text/css" href="css/downloadButton.css">
       <link rel="shortcut icon" href="favicon.ico" />
-      <script src="js/downloadclick.js"></script>
       <script src="js/getrelease.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="592e4bc3-59dc-4c54-a94c-8f8010ef459e";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
    </head>
    <body>
-      <div class="container">
-         <div class="left">
-            <div class="javserPhone">
-               <img src="img/javser_phone.png" alt="JAVser" />
-            </div>
-         </div>
-         <div class="right">
-            <div class="javserLogo">
-               <img src="img/javser_logo.png" />
-            </div>
-            <div class="description">
-               FREE JAV STREAMING
-               <br>WITHOUT ADS
-            </div>
-            <div class="downloadButtonDiv">
-               <button class="downloadButton" onclick="downloadClick()">
-                  <img id="retryImg" class="noDisplay retryImage"  src="img/retry.png"/>
-                  <div id="downloadId" class="tracking-in-expand">
-                     DOWNLOAD
-                  </div>
-               </button>
-            </div>
-            <div id="tyText" class="tyText noDisplay">
-               Thank you for downloading JAVser
-            </div>
-         </div>
+      <div class="background-wrap selectDisable">
+         <img src="img/javser_background.png"/>
       </div>
+      <div class="mainWrapper" draggable="false">
+            <img class="javserPhone selectDisable" draggable="false" src="img/javser_phone_cropped.png" alt="" />
+            <div class="rightSide" draggable="false">
+                <img class="javserLogo selectDisable" draggable="false" src="img/javser_logo.png" alt="" />
+                <div class="javserDescription selectDisable">
+                        FREE JAV STREAMING<br>WITHOUT ADS
+                </div>
+                
+                <button class="downloadButton" onclick="downloadClick()">
+                        <img id="retryImg" class="noDisplay retryImage"  src="img/retry.png"/>
+                        <div id="downloadId" class="tracking-in-expand">
+                           DOWNLOAD
+                        </div>
+                
+            </div>
+      </div>
+                    
    </body>
 </html>
