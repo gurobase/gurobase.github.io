@@ -1,249 +1,249 @@
 body {
-    /* display: block; */
-    background: rgb(17, 19, 22);
-    background: -moz-radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
-    background: radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#111316", endColorstr="#070707", GradientType=1);
+	background: rgb(17, 19, 22);
+	background: -moz-radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
+	background: radial-gradient(circle, rgba(17, 19, 22, 1) 35%, rgba(7, 7, 7, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#111316", endColorstr="#070707", GradientType=1);
 }
 
 .container {
-    height: fit-content;
-    margin-left: 25%;
-    margin-right: 5%;
-    margin-top: 100px;
-    padding: 10px;
+	height: fit-content;
+	margin-left: 25%;
+	margin-right: 5%;
+	margin-top: 100px;
+	padding: 10px;
 }
 
 .left {
-    display: inline-block;
+	display: inline-block;
 }
 
 .right {
-    display: inline-block;
-    vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .javserPhone {
-    display: inline-block;
-    margin: 0px;
-    padding: 5px;
-    margin-top: 50px;
+	display: inline-block;
+	margin: 0px;
+	padding: 5px;
+	margin-top: 50px;
 }
 
 .javserLogo {
-    height: 180px;
-    width: 180px;
-    margin: auto;
-    margin-top: 75px;
+	height: 180px;
+	width: 180px;
+	margin: auto;
+	margin-top: 75px;
 }
 
 .description {
-    font-family: 'Next Art Bold';
-    color: #ffffff;
-    font-size: 40px;
-    vertical-align: top;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
+	font-family: 'Next Art Bold';
+	color: #ffffff;
+	font-size: 40px;
+	vertical-align: top;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
 }
 
 .downloadButtonDiv {
-    width: 250px;
-    height: 77px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: fit-content;
-    height: fit-content;
+	width: 250px;
+	height: 77px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: fit-content;
+	height: fit-content;
 }
 
 .downloadButton {
-    background-color: transparent;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    width: 250px;
-    height: 77px;
-    vertical-align: top;
-    font-family: 'Next Art Bold';
-    font-size: 25px;
-    text-align: center;
-    line-height: 77px;
-    color: white;
-    text-decoration: none;
-    outline: none !important;
-    -webkit-transition-duration: 0.2s;
-    /* Safari */
-    transition-duration: 0.2s;
-    margin: 0 auto;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 3px;
+	width: 250px;
+	height: 77px;
+	vertical-align: top;
+	font-family: 'Next Art Bold';
+	font-size: 25px;
+	text-align: center;
+	line-height: 77px;
+	color: white;
+	text-decoration: none;
+	outline: none !important;
+	-webkit-transition-duration: 0.2s;
+	/* Safari */
+	transition-duration: 0.2s;
+	margin: 0 auto;
 }
 
 .downloadButton:hover {
-    cursor: pointer;
-    background-color: #191d20;
+	cursor: pointer;
+	background-color: #191d20;
 }
 
 .downloadAgainButton {
-    background-color: transparent;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-    width: 250px;
-    height: 77px;
-    vertical-align: top;
-    font-family: 'Next Art Bold';
-    font-size: 15px;
-    text-align: center;
-    line-height: 77px;
-    color: white;
-    text-decoration: none;
-    outline: none !important;
-    -webkit-transition-duration: 0.2s;
-    /* Safari */
-    transition-duration: 0.2s;
-    margin: 0 auto;
+	background-color: transparent;
+	width: 250px;
+	height: 77px;
+	vertical-align: top;
+	font-family: 'Next Art Bold';
+	font-size: 15px;
+	text-align: center;
+	line-height: 77px;
+	color: white;
+	text-decoration: none;
+	outline: none !important;
+	-webkit-transition-duration: 0.2s;
+	/* Safari */
+	transition-duration: 0.2s;
+	margin: 0 auto;
 }
 
 .downloadAgainButton:hover {
-    cursor: pointer;
-    background-color: #191d20;
+	cursor: pointer;
+	background-color: #191d20;
 }
 
 .noDisplay {
-    display: none;
+	display: none;
 }
 
 .retryImage {
-    height: 64px;
-    width: 64px;
-    transform: scale(0.7);
-    margin-top: 6px;
+	height: 64px;
+	width: 64px;
+	transform: scale(0.7);
+	margin-top: 6px;
+}
+
+.tyText {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #2a3136;
+	margin-top: 15px;
+	font-size: 15px;
+	font-family: 'Next Art Bold';
 }
 
 @font-face {
-    font-family: 'Next Art Bold';
-    src: url('fonts/next_art_bold-webfont.woff2') format('woff2'), url('fonts/next_art_bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Next Art Bold';
+	src: url('fonts/next_art_bold-webfont.woff2') format('woff2'), url('fonts/next_art_bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
+@-webkit-keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
+@keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
- @-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  .tracking-in-expand {
+.tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+@-webkit-keyframes tracking-out-contract {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+}
 
- @-webkit-keyframes tracking-out-contract {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-  }
-  @keyframes tracking-out-contract {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-  }
-  
+@keyframes tracking-out-contract {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+}
+
 .tracking-out-contract {
 	-webkit-animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
-
-
-
- @-webkit-keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  
-  
-  .fade-in {
+.fade-in {
 	-webkit-animation: fade-in 0.3s linear both;
-	        animation: fade-in 0.3s linear both;
+	animation: fade-in 0.3s linear both;
 }
 
+@-webkit-keyframes rotate-center {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
 
- @-webkit-keyframes rotate-center {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
-  }
-  @keyframes rotate-center {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
-  }
-  
+@keyframes rotate-center {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
 
 .rotate-center {
 	-webkit-animation: rotate-center 0.6s ease-in-out both;
-	        animation: rotate-center 0.6s ease-in-out both;
+	animation: rotate-center 0.6s ease-in-out both;
 }

@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -9,7 +8,9 @@ body {
 	background-color: black;
 }
 
+
 /* VIDEO BACKGROUND */
+
 .background-wrap {
 	position: fixed;
 	z-index: -1000;
@@ -28,13 +29,15 @@ body {
 	min-width: 100%;
 }
 
+
 /* TEXT */
+
 .content {
 	position: absolute;
 	width: 100%;
 	min-height: 100%;
 	z-index: 1000;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .content h1 {
@@ -54,17 +57,21 @@ body {
 	margin-bottom: 10px;
 }
 
+
 /* HORIZONTAL LINE */
-			hr {
-			display: block;
-			height: 1px;
-			border: 0px;
-			border-top: 10px solid #fff;
-			margin: .5em 0;
-			padding: 0;
-			}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0px;
+	border-top: 10px solid #fff;
+	margin: .5em 0;
+	padding: 0;
+}
+
 
 /* PROFILE PICTURE */
+
 .profilePic {
 	width: 100px;
 	height: 100px;

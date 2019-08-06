@@ -1,47 +1,52 @@
-body { 
-		background-image: url('../img/pattern.png');
-		background-color: #222;
-		text-align: center;
-	}
-		.wrapper {
-		width: 70%;
-		margin: auto;
-		margin-top: 80;
-	}
-    	video {
-		width: 100%;
-		background-color: rgba(36,36,36,0.5);
-		border: 1px solid rgb(28, 28, 28, 1);
-	}
-		center {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-		.ghostcrawlerClass {
-			position: absolute;
-			display: block;
-			right: 25;
-			bottom: 0;
-		}
-		.nowPlaying{
-			position: absolute;
-			width: 10%;
-			display: block;
-			right: 80;
-			top: 150;
-			overflow: auto
-		}
-		.nowPlayingPoster{
-			
-			position: absolute;
-			width: 10%;
-			display: block;
-			right: 75;
-			top: 250;
-			border-style: ridge;
-			border-color: #ffe217;
-			border-radius: 5px;
-			overflow: auto
-		}
+body {
+	background-image: url('../img/pattern.png');
+	background-color: #222;
+	text-align: center;
+}
+
+.wrapper {
+	width: 70%;
+	margin: auto;
+	margin-top: 80;
+}
+
+video {
+	width: 100%;
+	background-color: rgba(36, 36, 36, 0.5);
+	border: 1px solid rgb(28, 28, 28, 1);
+}
+
+center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.ghostcrawlerClass {
+	position: absolute;
+	display: block;
+	right: 25;
+	bottom: 0;
+}
+
+.nowPlaying {
+	position: absolute;
+	width: 10%;
+	display: block;
+	right: 80;
+	top: 150;
+	overflow: auto
+}
+
+.nowPlayingPoster {
+	position: absolute;
+	width: 10%;
+	display: block;
+	right: 75;
+	top: 250;
+	border-style: ridge;
+	border-color: #ffe217;
+	border-radius: 5px;
+	overflow: auto
+}

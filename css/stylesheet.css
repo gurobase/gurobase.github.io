@@ -1,42 +1,41 @@
-
 body {
-	background-color:black;
-}
-
+	background-color: black;
 }
 
 .fadeMe {
-	animation:fadeIn 2s linear;
+	animation: fadeIn 2s linear;
 }
+
 @keyframes fadeIn {
-  0% {
-    opacity:0
-  }
-  100% {
-    opacity:1;
-  }
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1;
+	}
 }
+
 .fadeMe.none {
-  display:none
+	display: none
 }
 
 .cropped {
-
 	width: 200px;
-  height: 308px;
+	height: 308px;
 	transition: .5s ease;
-  -webkit-clip-path: polygon(0 50%, 0 80%, 100% 50%, 100% 20%);
+	-webkit-clip-path: polygon(0 50%, 0 80%, 100% 50%, 100% 20%);
 	top: 0px;
 }
 
-.noxedMoveUp{
+.noxedMoveUp {
 	position: relative;
 	-webkit-clip-path: polygon(0 65%, 0 100%, 100% 100%, 100% 65%);
 	width: 200px;
 	height: 308px;
 	top: -215px;
 }
-.guroMoveUp{
+
+.guroMoveUp {
 	position: relative;
 	-webkit-clip-path: polygon(0 65%, 0 100%, 100% 100%, 100% 65%);
 	width: 200px;
@@ -44,102 +43,102 @@ body {
 	top: -215px
 }
 
-.guroMoveDown{
+.guroMoveDown {
 	position: relative;
 	-webkit-clip-path: polygon(0 0, 0 35%, 100% 35%, 100% 0);
 	width: 200px;
 	height: 308px;
 	top: 215px
 }
-.romaMoveDown{
+
+.romaMoveDown {
 	position: relative;
 	-webkit-clip-path: polygon(0 0, 0 35%, 100% 35%, 100% 0);
 	width: 200px;
-  height: 308px;
+	height: 308px;
 	top: 215px
 }
 
-
-
 .full {
 	width: 200px;
-  height: 308px;
-  transition: .5s ease;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+	height: 308px;
+	transition: .5s ease;
+	-webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
 }
-
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
-.flex-container > div {
+.flex-container>div {
 	width: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 300px;
 }
-.move {
 
+.move {}
 
-}
 .move:hover {
 	position: relative;
-	animation:animatetop 1s
-}
-@keyframes animatetop{
-	from{
-		top: 0px
-	}
-	to{
-		top:100px
-	}
+	animation: animatetop 1s
 }
 
+@keyframes animatetop {
+	from {
+		top: 0px
+	}
+	to {
+		top: 100px
+	}
+}
 
 .appear1 {
 	position: relative;
 	animation-timing-function: ease;
-	animation:appearanim 1.75s;
+	animation: appearanim 1.75s;
 }
+
 .appear2 {
 	position: relative;
 	animation-timing-function: ease;
-	animation:appearanim 1.5s
+	animation: appearanim 1.5s
 }
+
 .appear3 {
 	position: relative;
 	animation-timing-function: ease;
-	animation:appearanim 1.25s
+	animation: appearanim 1.25s
 }
-@keyframes appearanim{
-	from{
-		top: -900px;opacity: 0
+
+@keyframes appearanim {
+	from {
+		top: -900px;
+		opacity: 0
 	}
-	to{
-		top: 0px;opacity: 1
+	to {
+		top: 0px;
+		opacity: 1
 	}
 }
 
-img{
-	margin-top:-110px;
-	margin-bottom:-110px;
+img {
+	margin-top: -110px;
+	margin-bottom: -110px;
 }
-
 
 .progressBar {
-
-  position: absolute;
+	position: absolute;
 	top: 925px;
-  left: 0px;
-  height: 3px;
-  width: 0%;
-    background: white;
-    -webkit-transition: width 1.5s ease-out;
-    transition: width 1.5s lineat;
+	left: 0px;
+	height: 3px;
+	width: 0%;
+	background: white;
+	-webkit-transition: width 1.5s ease-out;
+	transition: width 1.5s lineat;
 }
 
 .progressBarFilled {
-    width: 100%;
+	width: 100%;
 }

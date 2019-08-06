@@ -1,13 +1,13 @@
-$(function(){
+$(function() {
 
-  $('a').click(function (e) {
+  $('a').click(function(e) {
 
-    e.preventDefault();
-    var goTo = this.getAttribute("href");
+      e.preventDefault();
+      var goTo = this.getAttribute("href");
 
-    setTimeout(function(){
-      window.location = goTo;
-    },1500);
+      setTimeout(function() {
+          window.location = goTo;
+      }, 1500);
 
   });
 
