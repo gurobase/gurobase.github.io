@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>JAVser</title>
-      <link rel="stylesheet" type="text/css" href="css/javser.css">
-      <link rel="stylesheet" type="text/css" href="css/downloadButton.css">
-      <link rel="shortcut icon" href="favicon.ico" />
-      <script src="js/getrelease.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   </head>
-   <body>
-      <div class="background-wrap selectDisable">
-         <img src="img/javser_background.png"/>
-      </div>
-      <div class="mainWrapper" draggable="false">
-            <img class="javserPhone selectDisable" draggable="false" src="img/javser_phone_cropped.png" alt="" />
-            <div class="rightSide" draggable="false">
-                <img class="javserLogo selectDisable" draggable="false" src="img/javser_logo.png" alt="" />
-                <div class="javserDescription selectDisable">
-                        FREE JAV STREAMING<br>WITHOUT ADS
-                </div>
-                
-                <button class="downloadButton" onclick="downloadClick()">
-                        <img id="retryImg" class="noDisplay retryImage"  src="img/retry.png"/>
-                        <div id="downloadId" class="tracking-in-expand">
-                           DOWNLOAD
-                        </div>
-                        </button>
-                        <div class="versionInfo">
-                           Android 5.0+
-                        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JAVser</title>
+    <link rel="stylesheet" type="text/css" href="css/javser.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="js/javser.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="background-wrap selectDisable">
+        <img src="img/javser_background.png" />
+    </div>
+    <div class="mainWrapper" draggable="false">
+        <img id="javserPhone" class="javserPhone selectDisable" draggable="false" alt="" />
+        <div class="rightSide" draggable="false">
+            <img class="javserLogo selectDisable" draggable="false" src="img/javser_logo.png" alt="" />
+            <div class="javserDescription selectDisable">
+                FREE JAV STREAMING
+                <br>WITHOUT ADS
             </div>
-      </div>
-      <a class="credit" href="https://guro.cf/"><img src="img/guro.png" alt=""></a>      
-   </body>
+
+            <button class="downloadButton" onclick="downloadClick()">
+                <img id="retryImg" class="noDisplay retryImage" src="img/retry.png" />
+                <div id="downloadId" class="tracking-in-expand">
+                    DOWNLOAD
+                </div>
+            </button>
+            <div class="versionInfo">
+                Android 5.0+
+            </div>
+        </div>
+    </div>
+    <a class="credit" href="https://guro.cf/"><img src="img/guro.png" alt=""></a>
+</body>
+
 </html>
