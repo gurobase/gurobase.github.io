@@ -86,7 +86,7 @@
 		margin-left: 480px;
 		bottom: 0px;
 		width: 500px;
-		height: 750px;
+		height: 670px;
 	}
 
 
@@ -130,8 +130,26 @@
 	
 	.downloadButton:hover {
 		cursor: pointer;
-		background-color: #191d20;
+		background-color: #ffffff25;
+		opacity: 0.8;
 	}
+
+
+	.credit {
+		position: fixed;
+		left: 20px;
+		bottom: 20px;
+		transition: all 0.2s ease;
+		-webkit-user-select: none;
+		user-select: none;
+		opacity: 0.6;
+	  }
+	  .credit img {
+		width: 72px;
+	  }
+	  .credit:hover {
+		transform: scale(0.95);
+	  }
 
 
  @-webkit-keyframes slide-in-bottom {
