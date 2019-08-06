@@ -1,7 +1,13 @@
 var clicked = false;
-
 function downloadClick() {
-    window.location.href = "https://github.com/gurobase/javser/raw/master/release/app-release.apk";
+    function GetLatestReleaseInfo() {
+        $.getJSON("https://api.github.com/repos/gurobase/javser/releases/latest").done(function(release) {
+          var asset = release.assets[0];
+          window.open(asset.browser_download_url,"_self");
+        });
+      }
+      
+      GetLatestReleaseInfo();
     if (clicked === false) {
         document.getElementById("downloadId").classList.add("tracking-out-contract");
         setTimeout(function() {
@@ -14,6 +20,9 @@ function downloadClick() {
         }, 1000);
     }
     clicked = true;
-
-
 }
+
+
+
+
+
