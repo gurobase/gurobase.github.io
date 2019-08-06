@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
 "https://lh4.googleusercontent.com/htZ1Ajeab1N_tvT13GPr5-0xGOpEoelcV3ddw7S0kivJkKQr77a1KAGI-qrjMDs6rez3BL15cqMMP3FtD3Km=w1920-h941",
 "https://lh3.googleusercontent.com/WNOr9JGWxfJ3P-oQhxuSngtUJIME7nfiJZmim7bbkLuCJ1XE32kLZiiD8od-r32fnYFh7g3O_yikTq4ow5Ya=w1920-h941"
   ]
-  // document.getElementById("javserPhone").src = "img/javser/phone/javser_phone_cropped_" + randomNumber + ".png"
   document.getElementById("javserPhone").src=phonePicArray[randomNumber];
 });
 
