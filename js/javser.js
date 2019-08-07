@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
 
   $.getJSON("https://api.github.com/repos/gurobase/javser/releases").done(function(release) {
+    var appVersion = release[0].tag_name
     var totalDownloads = 0;
     release.forEach(function(element) {
       
       totalDownloads = totalDownloads + element.assets[0].download_count;
     })
-    console.log(totalDownloads + " total downloads.")
-    document.getElementById('versionInfo').innerHTML = 'Android 5.0+</br>' + totalDownloads + " total downloads.";
+    document.getElementById('versionInfo').innerHTML = release[0].tag_name +'</br> Android 5.0+</br>' + totalDownloads + " total downloads.";
   });
 
   var randomNumber = Math.floor(Math.random() * 9);
