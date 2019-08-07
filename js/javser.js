@@ -1,7 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
 
+  $.getJSON("https://api.github.com/repos/gurobase/javser/releases").done(function(release) {
+    var totalDownloads = 0;
+    release.forEach(function(element) {
+      
+      totalDownloads = totalDownloads + element.assets[0].download_count;
+    })
+    console.log(totalDownloads + " total downloads.")
+    document.getElementById('versionInfo').innerHTML = 'Android 5.0+</br>' + totalDownloads + " total downloads.";
+  });
+
   var randomNumber = Math.floor(Math.random() * 9);
-  console.log(randomNumber)
   var phonePicArray = [
       "https://lh6.googleusercontent.com/khNedqspMCo18_dA5XrI4jDxdbDVMTGu9X8lblCsZyGjRG7LYHkZ5y_RnU5cHEYa-p8Hd_td6vO2r2GaBrT2=w1920-h941",
       "https://lh3.googleusercontent.com/gQ9ZMg1AqBMrdzMm4s8Ux0ajUoKG3m3-3_uRrFzvVrkhRNkvQhRLKdd8x_XfRknptB_ss1WlJXN1dBapJZ2s=w1920-h941",
@@ -33,8 +42,6 @@ function downloadClick() {
           document.getElementById("retryImg").classList.add("fade-in");
           document.getElementById("retryImg").classList.remove("noDisplay");
           document.getElementById("downloadId").classList.add("noDisplay");
-          document.getElementById("tyText").classList.remove("noDisplay");
-          document.getElementById("tyText").classList.add("fade-in");
 
       }, 1000);
   }
@@ -50,3 +57,11 @@ function formatBytes(a, b) {
       f = Math.floor(Math.log(a) / Math.log(c));
   return parseFloat((a / Math.pow(c, f)).toFixed(d)) + " " + e[f]
 }
+
+
+function scrollClick() {
+  document.getElementById("rightSide").classList.add("slide-out-top");
+  setTimeout(function() {
+    document.getElementById("rightSide").classList.add("noDisplay");
+  }, 1000);
+  }
