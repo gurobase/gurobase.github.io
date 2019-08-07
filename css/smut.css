@@ -15,3 +15,19 @@
     -o-user-select: none;
     user-select: none;
 }
+.twitterLogo {
+    width: 250px;
+    height: 220px;
+    transform: scale(.5);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right:0;
+    margin: auto;
+    transition-duration: .3s;
+}
+.twitterLogo:hover {
+    transform: scale(.55);
+}
