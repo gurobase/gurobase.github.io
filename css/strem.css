@@ -18,3 +18,8 @@ iframe {
         bottom: 0;
         float: right;
     }
+
+
+    .media-player-branding {
+        background: red!important;
+    }
