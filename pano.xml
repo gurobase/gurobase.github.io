@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="17253" appversion="6.0.2" id="node1">
+  <input prev3url="images/panorama_o_preview_3.jpg" tile4url="images/panorama_o_4.jpg" tilesize="1000" tile2url="images/panorama_o_2.jpg" levelingroll="0" prev2url="images/panorama_o_preview_2.jpg" prev4url="images/panorama_o_preview_4.jpg" tile1url="images/panorama_o_1.jpg" tile5url="images/panorama_o_5.jpg" tilescale="1.010000" prev0url="images/panorama_o_preview_0.jpg" prev1url="images/panorama_o_preview_1.jpg" prev5url="images/panorama_o_preview_5.jpg" levelingpitch="0" tile0url="images/panorama_o_0.jpg" tile3url="images/panorama_o_3.jpg">
+    <preview color="0x808080"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start fov="70" pan="0" tilt="0" projection="4"/>
+    <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+    <min pan="0" tilt="-90" fovpixel="2"/>
+    <max fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90" scaletofit="1"/>
+  </view>
+  <userdata customnodeid="" datetime="" latitude="" description="" tags="Desktop" copyright="" comment="" info="" longitude="" title="" source="" author=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label borderalpha="1" background="1" height="20" backgroundalpha="1" width="180" enabled="1" borderradius="1" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" textalpha="1" textcolor="0x000000"/>
+    <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+  </hotspots>
+  <media/>
+  <transition zoomspeed="2" blendcolor="0x000000" zoomoutpause="1" zoomout="0" zoomfov="20" type="crossdissolve" enabled="1" blendtime="1" softedge="0" zoomin="0"/>
+  <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+  <control lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" lockedwheel="0" invertwheel="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" hideabout="0" contextfullscreen="1" invertcontrol="1" lockedmouse="0"/>
+</panorama>
