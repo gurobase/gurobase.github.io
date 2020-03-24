@@ -1,8 +1,4 @@
-@media (min-width: 960px)
-.NewsSection-header, .NewsSection .Container {
-    border-bottom: none;
-}
-
-.NewsSection-header, .NewsSection .Container {
-    border-bottom: 1px solid rgba(0,0,0,.1);
+.BlenderwatchBanner{
+    width: 50%;
+    height: 50%;
 }
